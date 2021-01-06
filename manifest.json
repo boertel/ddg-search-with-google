@@ -1,0 +1,16 @@
+{
+
+  "manifest_version": 2,
+  "name": "ddg-search-with-google",
+  "version": "1.0",
+
+  "description": "Add a link to quickly re-run the current search on google",
+
+  "content_scripts": [
+    {
+      "matches": ["*://duckduckgo.com/*"],
+      "js": ["index.js"]
+    }
+  ]
+
+}
